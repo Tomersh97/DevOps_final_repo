@@ -32,6 +32,7 @@
     <input type="password" id="password" name="password" maxlength="20"><br><br>
     <input type="button" value="Login" onclick="submitForm()">
   </form> 
+  <a href="https://www.saucedemo.com/">Click me</a>
   <div id="error-messages"></div>
   <script>
     function submitForm() {
