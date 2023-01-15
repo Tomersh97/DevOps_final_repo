@@ -1,0 +1,127 @@
+{
+  "id": "0694d1a1-ba58-4ff8-9c21-d4a87ebc0d8e",
+  "version": "2.0",
+  "name": "Devops",
+  "url": "http://localhost:8085/Lior_Darya_Dar_Tomer_Lidar/",
+  "tests": [{
+    "id": "fb29d48f-8027-4f42-8d81-f9f8f434fc54",
+    "name": "Login-success",
+    "commands": [{
+      "id": "421839a7-9a8c-48d3-98fb-19dee3fa9734",
+      "comment": "",
+      "command": "open",
+      "target": "/Lior_Darya_Dar_Tomer_Lidar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "452274c8-8b92-41a7-b5fc-9981785f1525",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1295x829",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c12f5469-0f9c-4116-a9c6-e8d6440d0ffc",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "DevOps@final.com"
+    }, {
+      "id": "4e1080ca-384e-43e0-ae4e-cb5be19a2dfa",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "bestteam"
+    }, {
+      "id": "b9fe2b29-377a-45f2-9f91-17cb0c2a8419",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(10)",
+      "targets": [
+        ["css=input:nth-child(10)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a22d5b2-57c7-4af0-a4bf-06cdb26d4cec",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='error-messages']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'DevOps final project')]", "xpath:innerText"]
+      ],
+      "value": "DevOps final project"
+    }]
+  }, {
+    "id": "c19e670a-d9fd-4dd0-8b0d-cfca8996ae7c",
+    "name": "Verify-click-button",
+    "commands": [{
+      "id": "19d62a26-d3ff-4677-a8bd-85f7bdb396b8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8085/Lior_Darya_Dar_Tomer_Lidar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "683d821a-284b-4170-a47c-5c261c4a6183",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "833x574",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0792df54-55b5-4b4e-adb4-c6cd4e78faa8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Click me",
+      "targets": [
+        ["linkText=Click me", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Click me')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.saucedemo.com/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1b16f16-f6db-407b-8a57-036e0067556d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.login_logo",
+      "targets": [
+        ["css=.login_logo", "css:finder"],
+        ["xpath=//div[@id='root']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1a298bcf-f3dd-4abe-b561-6e39e5d1cad0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fb29d48f-8027-4f42-8d81-f9f8f434fc54", "c19e670a-d9fd-4dd0-8b0d-cfca8996ae7c"]
+  }],
+  "urls": ["http://localhost:8085/", "http://localhost:8085/Lior_Darya_Dar_Tomer_Lidar/"],
+  "plugins": []
+}
