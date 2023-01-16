@@ -2,7 +2,7 @@
   "id": "0694d1a1-ba58-4ff8-9c21-d4a87ebc0d8e",
   "version": "2.0",
   "name": "Devops",
-  "url": "http://localhost:8085/Lior_Darya_Dar_Tomer_Lidar/",
+  "url": "http://localhost:8081/Tomer_Lidar_Dar_Darya_Lior/",
   "tests": [{
     "id": "fb29d48f-8027-4f42-8d81-f9f8f434fc54",
     "name": "Login-success",
@@ -10,7 +10,7 @@
       "id": "421839a7-9a8c-48d3-98fb-19dee3fa9734",
       "comment": "",
       "command": "open",
-      "target": "/Lior_Darya_Dar_Tomer_Lidar/",
+      "target": "/Tomer_Lidar_Dar_Darya_Lior/",
       "targets": [],
       "value": ""
     }, {
@@ -77,7 +77,7 @@
       "id": "19d62a26-d3ff-4677-a8bd-85f7bdb396b8",
       "comment": "",
       "command": "open",
-      "target": "http://localhost:8085/Lior_Darya_Dar_Tomer_Lidar/",
+      "target": "http://localhost:8081/Tomer_Lidar_Dar_Darya_Lior/",
       "targets": [],
       "value": ""
     }, {
@@ -122,6 +122,6 @@
     "timeout": 300,
     "tests": ["fb29d48f-8027-4f42-8d81-f9f8f434fc54", "c19e670a-d9fd-4dd0-8b0d-cfca8996ae7c"]
   }],
-  "urls": ["http://localhost:8085/", "http://localhost:8085/Lior_Darya_Dar_Tomer_Lidar/"],
+  "urls": ["http://localhost:8081/", "http://localhost:8081/Tomer_Lidar_Dar_Darya_Lior/"],
   "plugins": []
 }
