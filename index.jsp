@@ -26,7 +26,7 @@
 </head>
 <body>
   <form>
-    <label for="username">Username:</label><br>
+    <label for="username">Insert Username:</label><br>
     <input type="text" id="username" name="username" maxlength="20"><br>
     <label for="password">Password:</label><br>
     <input type="password" id="password" name="password" maxlength="20"><br><br>
